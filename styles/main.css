@@ -5,7 +5,6 @@ body {
   background-color: white;
 }
 
-/* NAVIGATION */
 header {
   background-color: #150300;
   padding: 20px 10%;
@@ -49,7 +48,6 @@ nav {
   text-decoration: underline;
 }
 
-/* MAIN CONTENT */
 .content {
   display: flex;
   align-items: center;
@@ -60,7 +58,6 @@ nav {
   min-height: 100vh;
 }
 
-/* FIX: Center Vertically */
 .left-column {
   flex: 1;
   text-align: center;
@@ -68,7 +65,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%; /* Ensure it fills the container */
+  height: 100%;
   gap: 15px;
 }
 
@@ -99,21 +96,18 @@ nav {
   height: auto;
 }
 
-/* FIX: Text Alignment & Centering */
 p {
   font-size: 18px;
   line-height: 1.6;
-  margin-bottom: 20px; /* Extra spacing */
+  margin-bottom: 20px;
 }
 
-/* "About Us" LINK FIX */
 .footer-link {
   color: #DB8D33;
   text-decoration: underline;
   font-weight: bold;
 }
 
-/* IMAGE SECTION */
 .right-column {
   flex: 1;
   display: flex;
@@ -127,7 +121,6 @@ p {
   border-radius: 10px;
 }
 
-/* FOOTER */
 footer {
   text-align: center;
   padding: 20px;
