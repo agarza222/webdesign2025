@@ -1,0 +1,136 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: #575757;
+  background-color: white;
+}
+
+/* NAVIGATION */
+header {
+  background-color: #150300;
+  padding: 20px 10%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li {
+  font-size: 1em;
+}
+
+.nav-links a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.welcome {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+/* MAIN CONTENT */
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 80px 10%;
+  min-height: 100vh;
+}
+
+/* FIX: Center Vertically */
+.left-column {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Ensure it fills the container */
+  gap: 15px;
+}
+
+.title-discover {
+  font-family: "Georgia", serif;
+  color: #DB8D33;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.title-story {
+  font-family: "Times New Roman", serif;
+  font-size: 48px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #575757;
+}
+
+.star {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.star img {
+  width: 50px;
+  height: auto;
+}
+
+/* FIX: Text Alignment & Centering */
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px; /* Extra spacing */
+}
+
+/* "About Us" LINK FIX */
+.footer-link {
+  color: #DB8D33;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* IMAGE SECTION */
+.right-column {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.right-column img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #150300;
+  color: white;
+}/*# sourceMappingURL=main.css.map */
